@@ -1,0 +1,110 @@
+body{
+    margin: 0px;
+}
+header img{
+    width: 200px;
+    margin-left: 10px;
+}
+header{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    align-items: center;
+    list-style-type: none;
+    
+}
+#home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#home div, #home img, #aboutme div {
+    width: 50%;
+} 
+@media only screen and (max-width: 599px){
+    #home div, #home img, #aboutme div {
+        width: 100%;
+    }  
+}
+#home div{
+    text-align: center;
+}
+button {
+    width: 90px;
+    height: 75px;
+    font-size: 18px;
+    border-radius: 17px;
+
+    }
+    button:hover{
+        background-color: #EA4335 ;
+        color: #CCCCCC;
+    }
+#aboutme{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+#omeni{
+    text-align: center;
+    padding: 10px;
+}
+#skills{
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+#projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    padding: 20px 10px 20px 10px;
+}
+h4{
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+body, header, footer {
+    background-color: #EA4335;
+    color:#CCCCCC;
+}
+#home, #aboutme, #projects {
+    background-color: white;
+    color: black;
+}
+*{
+    font-family: 'Kalam', cursive
+}
+header ul a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #CCCCCC;
+}
+main{
+    margin-top: 80px;
+}
+
+#projects div{
+    border: 5px solid  #CCCCCC;
+    border-radius: 12px;
+    box-shadow: 5px 5px grey;
+   
+
+}
+ li a:hover{
+    color: #2b3d30;
+}
